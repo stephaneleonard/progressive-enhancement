@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+header {
+    width: 400px;
+    margin:0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    color: white;
+    list-style-type: none;
+  }
