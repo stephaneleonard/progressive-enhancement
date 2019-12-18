@@ -1,0 +1,130 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  line-height: 145%;
+}
+
+/*-----------------------------------*/
+/*---------------NAVBAR--------------*/
+/*-----------------------------------*/
+
+nav {
+  padding: 15px;
+  background-color: #e9edf2;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li:nth-child(1),
+nav li:nth-child(2),
+nav li:nth-child(3),
+nav li:nth-child(4) {
+  padding: 0px;
+  float: left;
+}
+
+nav li:nth-child(5),
+nav li:nth-child(6),
+nav li:nth-child(7),
+nav li:nth-child(8) {
+  padding: 0px;
+  float: right;
+}
+
+nav li a {
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+
+nav img {
+  height: 43px;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+
+nav li:nth-child(4) a {
+  color: rgb(114, 114, 114);
+}
+
+nav button ,nav button:active,nav button:hover, nav button:link, nav button:visited{
+  padding: 10px;
+  border: 1px solid black;
+  font-weight: bolder;
+  font-size: 90%;
+}
+
+nav button:first-child {
+  background-color: #3f9bf8;
+  color: white;
+  border-bottom-left-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+nav button:last-child {
+  background-color: #fff;
+  border-bottom-right-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+/*-----------------------------------*/
+/*---------------HEADER--------------*/
+/*-----------------------------------*/
+header{
+  padding-top: 50px;
+  background-color: #e9edf2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 240%;
+  font-weight: lighter;
+  padding-bottom: 65px;
+}
+
+
+/*--------FISRT DIV HEADER--------------*/
+
+.first-div {
+  background-color: #3F4655;
+  display: grid;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.first-div article {
+  border: 1px solid rgb(56, 56, 56);
+  padding: 35px;
+  text-align: center;
+  color: #acacac;
+}
+
+.first-div article h2 {
+  color: #fff;
+  font-size: 130%;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.first-div article img {
+  height: 160px;
+  width: auto;
+  margin: 10px;
+
+}
+
+/*--------SECOND DIV HEADER---------*/
+
+.sec-div img{
+  width: 100%;
+}
