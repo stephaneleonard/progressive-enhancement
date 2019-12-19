@@ -125,6 +125,50 @@ h1 {
 
 /*--------SECOND DIV HEADER---------*/
 
+.sec-div {
+  text-align: center;
+  font-family: serif;
+}
 .sec-div img{
   width: 100%;
+}
+
+.sec-div p {
+
+  margin: 30px auto;
+  font-size: 150%;
+  width: 40%;
+}
+
+.sec-div p:last-of-type{
+  font-size: 100%;
+}
+
+.sec-div a {
+  background-color: #3f9bf8;
+  padding: 15px 30px;
+  color: white;
+  border:1px solid black;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 110%;
+  font-family: sans-serif;
+}
+
+/*-----------------------------------*/
+/*-----------FIRST SECTION-----------*/
+/*-----------------------------------*/
+.sec-section {
+  padding: 60px;
+  text-align: center;
+}
+
+.grid-div{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
 }
