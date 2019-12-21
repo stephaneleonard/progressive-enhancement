@@ -57,7 +57,11 @@ nav li:nth-child(4) a {
   color: rgb(114, 114, 114);
 }
 
-nav button ,nav button:active,nav button:hover, nav button:link, nav button:visited{
+nav button,
+nav button:active,
+nav button:hover,
+nav button:link,
+nav button:visited {
   padding: 10px;
   border: 1px solid black;
   font-weight: bolder;
@@ -80,7 +84,7 @@ nav button:last-child {
 /*-----------------------------------*/
 /*---------------HEADER--------------*/
 /*-----------------------------------*/
-header{
+header {
   padding-top: 50px;
   background-color: #e9edf2;
 }
@@ -92,11 +96,10 @@ h1 {
   padding-bottom: 65px;
 }
 
-
 /*--------FISRT DIV HEADER--------------*/
 
 .first-div {
-  background-color: #3F4655;
+  background-color: #3f4655;
   display: grid;
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -120,7 +123,6 @@ h1 {
   height: 160px;
   width: auto;
   margin: 10px;
-
 }
 
 /*--------SECOND DIV HEADER---------*/
@@ -129,18 +131,17 @@ h1 {
   text-align: center;
   font-family: serif;
 }
-.sec-div img{
+.sec-div img {
   width: 100%;
 }
 
 .sec-div p {
-
   margin: 30px auto;
   font-size: 150%;
   width: 40%;
 }
 
-.sec-div p:last-of-type{
+.sec-div p:last-of-type {
   font-size: 100%;
 }
 
@@ -148,7 +149,7 @@ h1 {
   background-color: #3f9bf8;
   padding: 15px 30px;
   color: white;
-  border:1px solid black;
+  border: 1px solid black;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
@@ -160,15 +161,211 @@ h1 {
 /*-----------FIRST SECTION-----------*/
 /*-----------------------------------*/
 .sec-section {
+  margin: 30px auto;
   padding: 60px;
   text-align: center;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.sec-section h2 {
+  text-align: center;
+  font-size: 200%;
+  font-weight: lighter;
+  padding-bottom: 20px;
 }
 
-.grid-div{
+.sec-section p {
+  text-align: center;
+  font-size: 150%;
+  font-weight: lighter;
+  font-family: fantasy;
+  padding-bottom: 30px;
+}
+
+.grid-div {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.grid-div article:first-child {
+  border-right: rgb(150, 150, 150) 1px solid;
+}
 
+.grid-div article {
+  padding: 4em;
+}
+
+.grid-div article h3 {
+  text-align: center;
+  font-size: 150%;
+  font-weight: lighter;
+  padding-bottom: 5px;
+}
+
+.grid-div article p {
+  text-align: center;
+  font-size: 120%;
+  font-weight: lighter;
+  font-family: fantasy;
+  padding-bottom: 5px;
+}
+
+.grid-div article img {
+  height: 100px;
+  width: auto;
+}
+
+.grid-div article a {
+  display: inline-block;
+  padding: 10px;
+  border: solid black 1px;
+  background-color: #3f9bf8;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.grid-div article i {
+  font-style: italic;
+}
+
+/*-----------------------------------*/
+/*------------SEC SECTION------------*/
+/*-----------------------------------*/
+
+.users-sec {
+  background-color: #e9edf2;
+  text-align: center;
+  padding: 3.5em;
+}
+
+.users-sec h2 {
+  text-align: center;
+  font-size: 200%;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+.users-sec p {
+  display: inline-block;
+  text-align: center;
+  font-size: 150%;
+  font-weight: lighter;
+  font-family: fantasy;
+  padding-bottom: 30px;
+  width: 50%;
+}
+/*-----------------------------------*/
+/*-----------FORM SECTION------------*/
+/*-----------------------------------*/
+
+.form-sec {
+  text-align: center;
+  padding: 3.5em;
+}
+
+.form-sec h2 {
+  text-align: center;
+  font-size: 220%;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+.form-sec p {
+  display: inline-block;
+  text-align: center;
+  font-size: 150%;
+  font-weight: lighter;
+  font-family: fantasy;
+  padding-bottom: 30px;
+  width: 50%;
+}
+
+.under-form {
+  display: inline;
+  margin: 20px;
+  color: #888888;
+  font-size: 75%;
+}
+.under-form a {
+  color: #888888;
+  display: inline;
+}
+
+/*-----------FORM------------*/
+
+form {
+  display: inline-block;
+  width: 50%;
+  background-color: #e9edf2;
+  border: black solid 1px;
+  border-radius: 5px;
+  padding: 2em;
+}
+
+form label {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  font-size: 100%;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+form input {
+  display: block;
+  padding: 8px;
+  width: 90%;
+  font-size: 100%;
+  border-radius: 5px;
+  border: rgb(136, 136, 136) solid 1px;
+  margin-bottom: 20px;
+}
+
+form p {
+  font-size: 10px;
+}
+
+.submit-btn {
+  display: inline-block;
+  background-color: #3f9bf8;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  width: 50%;
+}
+
+/*-----------------------------------*/
+/*-----------FORM SECTION------------*/
+/*-----------------------------------*/
+
+footer {
+  background-color: #3F4655;
+  color: #fff;
+  padding: 3em;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-size: 90%;
+} 
+
+.footer-grid li {
+  margin: 10px;
+}
+.footer-grid li:first-of-type{
+  color: rgb(172, 172, 172);
+}
+footer img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p {
+  text-align: center;
+  font-size: 90%;
+  color: #b8b8b8;
 }
