@@ -1,0 +1,28 @@
+p{
+    line-height: 145%;
+    font-size: 130%;
+    margin-top: 2em;
+}
+
+body {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 5em;
+}
+header {
+    text-align: justify;
+    margin-bottom: 5em;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+section{
+    margin-bottom: 5em;
+}
+img{
+    margin: 3em;
+}
